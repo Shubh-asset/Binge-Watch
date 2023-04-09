@@ -1,0 +1,133 @@
+/* Style for the frames */
+
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: "Netflix Sans", Arial, sans-serif;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  
+  #signin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-family: "Netflix Sans", Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
+body {
+    font-family: "Netflix Sans", Arial, sans-serif;
+    font-size: 18px;
+  }
+
+.frame {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #888;
+    padding: 0 35px; 
+  }
+  
+  /* Style for the headings */
+  .frame h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the subheadings */
+  .frame h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .frame h3 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+ 
+  
+  /* Style for the email input */
+  #email {
+    width: 25rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  /* Style for the Get Started button */
+  #get-started {
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #get-started:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Style for the FAQ dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    min-width: 160px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dropdown-content a:hover {
+    text-decoration: underline;
+  }
+  
